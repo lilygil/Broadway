@@ -2,6 +2,7 @@ body,
 html{
   text-align: center;
   background:
+  font-family: Helvetica;
 }
 header{
   color: white;
@@ -10,14 +11,13 @@ header{
   line-height: inherit;
 }
 
-li a{
+a{
   color: white;
-  text-decoration: none;
 }
 
 ul{
   list-style: none;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
 }
 h1,
@@ -29,8 +29,29 @@ h3{
 .designed{
   background-image:url("file:///Users/lilygil/Documents/Projects/Codecademy/Broadway/Styles/images/broadway.png");
   color: white;
+  font-size: 23px;
 }
 
 h1{
-  font-size: 80px;
+  font-size: 70px;
+}
+
+h2{
+  font-size: 32px;
+}
+
+h3{
+  font-size: 23px;
+}
+
+p{
+  font-size:14px;
+}
+
+footer{
+  background-color: dimgray;
+  font-size: 11px;
+  color: white;
+  display: block;
+  text-align: left;
 }
